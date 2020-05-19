@@ -50,4 +50,18 @@ class StudentTest {
         assertEquals(5, result);
     }
 
+    //wir testen attribute, ob Paul u Tom die selben attribute haben
+    @Test
+    public void equalsMethode() {
+        //Given
+        Student Paul = new Student("blue", true, 5);
+        Student Tom = new Student("blue", true, 5);
+
+        //WHEN
+        boolean result = Paul.equals(Tom);
+
+        //THEN
+        assertTrue(result);
+    }
+
 }
