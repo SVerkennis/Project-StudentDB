@@ -4,13 +4,13 @@ import java.util.Objects;
 
 public class Student {
 
-    //attribute bestimmen
+    //private class variables
     private String flagColor;
     private boolean single;
     private int fails;
 
 
-    // Methode
+    // constructor
     public Student(String flagColor, boolean single, int fails) {
         this.flagColor = flagColor;
         this.single = single;
