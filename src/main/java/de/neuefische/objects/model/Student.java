@@ -10,7 +10,7 @@ public class Student {
     private int fails;
 
 
-    // zuweisen
+    // Methode
     public Student(String flagColor, boolean single, int fails) {
         this.flagColor = flagColor;
         this.single = single;
